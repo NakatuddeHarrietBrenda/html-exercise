@@ -1,0 +1,38 @@
+h2 {text-decoration-line: line-through;}
+h1 {letter-spacing: 5px;}
+h3 {letter-spacing: -2px;
+position: relative;}
+h1 {text-shadow: 2px 2px;
+display: flex;}
+
+a:link, a:visited {
+     background-color: #f44336; 
+    color: white;
+    padding: 14px 25px; 
+    text-align: center;
+     text-decoration: none; 
+     display: inline-block;}
+a:hover, a:active {background-color: red;}
+
+ul.a {list-style-type: circle;}
+ ul.b { list-style-type: square;} 
+ol.c {list-style-type: upper-roman;} 
+ol.d {list-style-type: lower-alpha;}
+
+div.absolute { position: absolute;top: 80px;right: 0; width: 200px; 
+    height: 100px;border: 3px solid #73AD21;}
+
+img { position: absolute; 
+    size: 80px;
+     left: 500px;
+     top: 5px;
+     bottom: 500px;
+     right: 200px;
+     z-index: -1;
+    align-items: center;
+    width: 800px;
+    height: 600px;
+}
+
+
+div {width: 200px;height: 65px; overflow: visible;}
